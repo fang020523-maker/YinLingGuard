@@ -25,6 +25,15 @@
 
 HarmonyOS 7.0（API 26）· ArkTS / ArkUI（Stage 模型）· Sensor Kit / Core Speech Kit / Notification Kit / Form Kit / RelationalStore / distributedKVStore · 智谱 GLM（glm-4-flash / glm-4v-flash / embedding-2）
 
+## 仓库目录说明
+
+| 目录 / 文件 | 内容 |
+|---|---|
+| `YinLingGuard/` | 应用源码工程（目录名保留英文：HarmonyOS hvigor 构建系统要求工程路径为纯 ASCII 字符，中文路径会构建失败） |
+| `文档/` | 参赛作品说明文档、性能实测与测试说明、联邦学习模拟图 |
+| `银龄守护-演示视频.mp4` | 100 秒全流程演示（跌倒检测→倒计时自救→家属告警→RAG 问答→Agent→识药） |
+| `银龄守护-讲解视频.mp4` | 3 分钟作品讲解 |
+
 ## 工程结构
 
 ```
