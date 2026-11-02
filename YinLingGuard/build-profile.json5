@@ -1,0 +1,56 @@
+{
+  app: {
+    signingConfigs: [
+      {
+        name: 'default',
+        type: 'HarmonyOS',
+        material: {
+          certpath: 'C:\\Users\\lenovo\\.ohos\\config\\default_YinLingGuard_AKk5J9eqy1f8LxMsH0xoaO3jKnINPUfHlvSsWyRu4Y=.cer',
+          keyAlias: 'debugKey',
+          keyPassword: '0000001b4bfd3f58f1e7e6910510c588c95675dfd6a37f966715de6ee4fa11e5253bc1561fcb1d0d55a2da',
+          profile: 'C:\\Users\\lenovo\\.ohos\\config\\default_YinLingGuard_AKk5J9eqy1f8LxMsH0xoaO3jKnINPUfHlvSsWyRu4Y=.p7b',
+          signAlg: 'SHA256withECDSA',
+          storeFile: 'C:\\Users\\lenovo\\.ohos\\config\\default_YinLingGuard_AKk5J9eqy1f8LxMsH0xoaO3jKnINPUfHlvSsWyRu4Y=.p12',
+          storePassword: '0000001b4bfd3f58f1e7e6910510c588c95675dfd6a37f966715de6ee4fa11e5253bc1561fcb1d0d55a2da',
+        },
+      },
+    ],
+    products: [
+      {
+        name: 'default',
+        signingConfig: 'default',
+        targetSdkVersion: '26.0.0',
+        compatibleSdkVersion: '26.0.0',
+        runtimeOS: 'HarmonyOS',
+        buildOption: {
+          strictMode: {
+            caseSensitiveCheck: true,
+            useNormalizedOHMUrl: true,
+          },
+        },
+      },
+    ],
+    buildModeSet: [
+      {
+        name: 'debug',
+      },
+      {
+        name: 'release',
+      },
+    ],
+  },
+  modules: [
+    {
+      name: 'entry',
+      srcPath: './entry',
+      targets: [
+        {
+          name: 'default',
+          applyToProducts: [
+            'default',
+          ],
+        },
+      ],
+    },
+  ],
+}

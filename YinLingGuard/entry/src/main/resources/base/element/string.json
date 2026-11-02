@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "银龄守护主模块"
+    },
+    {
+      "name": "ability_desc",
+      "value": "银龄守护入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "银龄守护"
+    },
+    {
+      "name": "perm_internet",
+      "value": "联网获取AI用药安全问答与云端守护服务"
+    },
+    {
+      "name": "perm_accelerometer",
+      "value": "采集加速度传感器数据用于端侧跌倒检测"
+    },
+    {
+      "name": "perm_distributed",
+      "value": "跨设备同步守护状态与告警，实现家人协同守护"
+    },
+    {
+      "name": "perm_microphone",
+      "value": "端侧识别求救关键词（如“救命”），语音原文不出设备"
+    },
+    {
+      "name": "form_label",
+      "value": "银龄守护卡片服务"
+    },
+    {
+      "name": "form_display",
+      "value": "守护状态"
+    },
+    {
+      "name": "form_desc",
+      "value": "老人守护状态桌面卡片，点击进入应用"
+    }
+  ]
+}

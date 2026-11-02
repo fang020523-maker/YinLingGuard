@@ -1,0 +1,11 @@
+{
+  "name": "yinlingguard",
+  "version": "1.0.0",
+  "description": "银龄守护——端云协同多模态感知的适老化健康守护系统（第九届传智杯 AI鸿蒙赛道）",
+  "modelVersion": "26.0.0",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {}
+}
